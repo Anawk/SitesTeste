@@ -1,0 +1,21 @@
+main, section, div, h1, h2, h3, p, ul, li{
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cabeçalho{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: dimgray;
+}
