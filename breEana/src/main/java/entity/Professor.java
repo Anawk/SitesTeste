@@ -7,9 +7,7 @@ import java.util.List;
 
 @Entity(name = "professor")
 @Table(name = "professor")
-
 public class Professor {
-
     @Column
     private String senha;
     @Column

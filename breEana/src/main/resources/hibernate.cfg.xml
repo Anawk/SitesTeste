@@ -26,5 +26,7 @@
         <property name="hibernate.dbcp.maxWaitMillis">-1</property>
         <mapping class="entity.Aluno" />
         <mapping class="entity.Turma" />
+        <mapping class="entity.Professor" />
+        <mapping class="entity.Nota" />
     </session-factory>
 </hibernate-configuration>

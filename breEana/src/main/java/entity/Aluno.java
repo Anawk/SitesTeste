@@ -29,12 +29,12 @@ public class Aluno {
     private double media;
 
 
-    public Aluno(String senha, List<Nota> notas, String nome, String prontuario, double media) {
+    public Aluno(String senha, String nome, String prontuario) {
         this.senha = senha;
-        this.notas = notas;
         this.nome = nome;
         this.prontuario = prontuario;
-        this.media = media;
+        this.notas = new ArrayList<>();
+        this.media = 0.0;
     }
 
     public long getId() {

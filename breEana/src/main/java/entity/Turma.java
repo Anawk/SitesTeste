@@ -29,11 +29,11 @@ public class Turma {
     @Column
     private  String codigo;
 
-    public Turma(Professor professor, Integer horario, List<Aluno> alunos, String codigo) {
+    public Turma(Professor professor, Integer horario,String codigo) {
         this.professor = professor;
         this.horario = horario;
-        this.alunos = alunos;
         this.codigo = codigo;
+        this.alunos = new ArrayList<>();
     }
 
     public long getId() {
